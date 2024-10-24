@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 150px;
+    max-width: 100%;
+    margin-top: 115px;
+    justify-content: center;
+
+}
+
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 555px;
+}
+
+.main-header-text {
+    font-size: 50px;
+    line-height: 70px;
+    color: var(--black);
+    font-weight: 500;
+    margin: 27px 0 20px 0;
+}
+
+.main-description-text {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--gray);
+    margin: 0;
+}
+
+.main-content-container {
+    margin-left: 40px;
+}
